@@ -15,7 +15,7 @@ module MysqlCookbook
         case new_resource.parsed_version
         when '5.5'
           my_cnf = "#{base_dir}/etc/my.cnf"
-        when '5.6'
+        when '5.6', '5.7'
           my_cnf = "#{base_dir}/my.cnf"
         end
         my_cnf

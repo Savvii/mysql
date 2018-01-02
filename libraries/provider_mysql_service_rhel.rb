@@ -33,6 +33,10 @@ class Chef
               recipe_eval do
                 run_context.include_recipe 'yum-mysql-community::mysql56'
               end
+            when '5.7'
+              recipe_eval do
+                run_context.include_recipe 'yum-mysql-community::mysql57'
+              end
             end
           end
 

@@ -71,6 +71,9 @@ module Opscode
               },
               '5.6' => {
                 'package_name' => 'mysql-community-server'
+              },
+              '5.7' => {
+                'package_name' => 'mysql-community-server'
               }
             },
             '7' => {
@@ -78,6 +81,9 @@ module Opscode
                 'package_name' => 'mysql-community-server'
               },
               '5.6' => {
+                'package_name' => 'mysql-community-server'
+              },
+              '5.7' => {
                 'package_name' => 'mysql-community-server'
               }
             },
@@ -95,6 +101,9 @@ module Opscode
               },
               '5.6' => {
                 'package_name' => 'mysql-community-server'
+              },
+              '5.7' => {
+                'package_name' => 'mysql-community-server'
               }
             },
             '2014.03' => {
@@ -106,6 +115,9 @@ module Opscode
               },
               '5.6' => {
                 'package_name' => 'mysql-community-server'
+              },
+              '5.7' => {
+                'package_name' => 'mysql-community-server'
               }
             },
             '2014.09' => {
@@ -116,6 +128,9 @@ module Opscode
                 'package_name' => 'mysql-community-server'
               },
               '5.6' => {
+                'package_name' => 'mysql-community-server'
+              },
+              '5.7' => {
                 'package_name' => 'mysql-community-server'
               }
             }
@@ -181,6 +196,9 @@ module Opscode
               },
               '5.6' => {
                 'package_name' => 'mysql-server-5.6'
+              },
+              '5.7' => {
+                'package_name' => 'mysql-server-5.7'
               }
             },
             '14.10' => {
@@ -189,6 +207,9 @@ module Opscode
               },
               '5.6' => {
                 'package_name' => 'mysql-server-5.6'
+              },
+              '5.7' => {
+                'package_name' => 'mysql-server-5.7'
               }
             }
           },
@@ -198,6 +219,9 @@ module Opscode
                 'package_name' => 'mysql-server'
               },
               '5.6' => {
+                'package_name' => 'mysql-server'
+              },
+              '5.7' => {
                 'package_name' => 'mysql-server'
               }
             }
@@ -209,6 +233,9 @@ module Opscode
               },
               '5.6' => {
                 'package_name' => 'database/mysql-56'
+              },
+              '5.7' => {
+                'package_name' => 'database/mysql-57'
               }
             }
           },
