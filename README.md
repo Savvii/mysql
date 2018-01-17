@@ -187,7 +187,7 @@ Attributes
     ### used in grants.sql
     default['mysql']['allow_remote_root'] = false
     default['mysql']['remove_anonymous_users'] = true
-    default['mysql']['root_network_acl'] = nil
+    default['mysql']['root_network_acl'] = []
 
 License & Authors
 -----------------
