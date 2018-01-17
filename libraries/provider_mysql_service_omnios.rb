@@ -9,6 +9,8 @@ class Chef
   class Provider
     class MysqlService
       class Omnios < Chef::Provider::MysqlService
+        provides :mysql_service, platform: 'omnios'
+
         use_inline_resources if defined?(use_inline_resources)
 
         def whyrun_supported?

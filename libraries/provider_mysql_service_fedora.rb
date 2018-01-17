@@ -7,6 +7,8 @@ class Chef
   class Provider
     class MysqlService
       class Fedora < Chef::Provider::MysqlService
+        provides :mysql_service, platform: 'fedora'
+
         use_inline_resources if defined?(use_inline_resources)
 
         def whyrun_supported?
