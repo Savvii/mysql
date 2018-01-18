@@ -7,6 +7,8 @@ class Chef
   class Provider
     class MysqlService
       class Rhel < Chef::Provider::MysqlService
+        provides :mysql_service, platform: %w{rhel amazon redhat centos oracle scientific}
+
         use_inline_resources if defined?(use_inline_resources)
 
         def whyrun_supported?

@@ -4,6 +4,8 @@ class Chef
   class Provider
     class MysqlClient
       class Suse < Chef::Provider::MysqlClient
+        provides :mysql_client, platform: 'suse'
+
         use_inline_resources if defined?(use_inline_resources)
 
         def whyrun_supported?
